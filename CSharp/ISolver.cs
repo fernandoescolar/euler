@@ -7,6 +7,5 @@
 
     internal interface ISolver : ISolver<int>
     {
-        int Solve();
     }
 }

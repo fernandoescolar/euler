@@ -22,6 +22,8 @@ int main( int argc, const char* argv[] )
 	printSolution(4, 906609, Solver4());
 	printSolution(5, 232792560, Solver5());
 
+	printSolution(16, 1366, Solver16());
+
 	printf( "\n\n");
 	system("pause");
 	return 0;

@@ -7,4 +7,6 @@ int Solver3();
 int Solver4();
 int Solver5();
 
+int Solver16();
+
 #endif

@@ -1,8 +1,3 @@
-int calculate5(int i, int result)
-{
-    result = LeastCommonMultiple(result, i);
-    return i == 20 ? result : calculate5( i + 1, result);
-}
 
 int GreatestCommonDivisor(int m, int n)
 {
@@ -15,6 +10,12 @@ int GreatestCommonDivisor(int m, int n)
 int LeastCommonMultiple(int m, int n)
 {
     return m / GreatestCommonDivisor(m, n) * n;
+}
+
+int calculate5(int i, int result)
+{
+    result = LeastCommonMultiple(result, i);
+    return i == 20 ? result : calculate5( i + 1, result);
 }
 
 int Solver5()

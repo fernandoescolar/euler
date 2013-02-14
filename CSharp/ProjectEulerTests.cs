@@ -242,6 +242,18 @@ namespace ProjectEuler
         }
 
         /// <summary>
+        /// Power digit sum:
+        /// 
+        /// 2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+        /// What is the sum of the digits of the number 2^1000?
+        /// </summary>
+        [TestMethod]
+        public void Problem16()
+        {
+            SolverAssert(new Solver16(), 1366);
+        }
+
+        /// <summary>
         /// Largest palindrome product:
         /// A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 99.
         /// Find the largest palindrome made from the product of two 3-digit numbers.

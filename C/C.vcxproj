@@ -64,8 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Common.c" />
     <ClCompile Include="Program.c" />
     <ClCompile Include="Solver1.c" />
+    <ClCompile Include="Solver16.c" />
     <ClCompile Include="Solver2.c" />
     <ClCompile Include="Solver3.c" />
     <ClCompile Include="Solver4.c" />

@@ -61,6 +61,7 @@
     <Compile Include="Solver13.cs" />
     <Compile Include="Solver14.cs" />
     <Compile Include="Solver15.cs" />
+    <Compile Include="Solver16.cs" />
     <Compile Include="Solver4.cs" />
     <Compile Include="ISolver.cs" />
     <Compile Include="Solver1.cs" />
